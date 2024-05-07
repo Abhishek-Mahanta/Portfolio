@@ -84,15 +84,9 @@ const footer = () => {
             </p>
             <p className='py-4'>
               Feel free to scroll everything.
+              I'm very happy to have you here.
             </p>
-            <form className='flex flex-col sm:flex-row'>
-              <input type="email" placeholder="Enter your e-mail address here"
-                className='w-full p-2 mr-4 rounded-md md-4 text-black border-gray-300 border-2 focus:outline-none focus:border-green-500'
-                style={{ minWidth: '300px', padding: '8px' }} />
-              <button className='p-2 md-4 hover:uppercase'>
-                Subscribe
-              </button>
-            </form>
+            
             <div className='flex justify-between sm:w-[300px] pt-4 mt-6 text-2xl'>
               {items.map((x, index) => {
                 return (
