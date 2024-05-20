@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 const About = () => {
     return (
         <section className='justify-around flex p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-8 text-white'>
-            <div className='w-1/2 '>
+            <div className='w-1/2 mr-[300px]'>
                 <div className='border-2 border-gray-300 p-10 rounded-3xl bg-indigo-800'>
                     <p className='text-5xl mb-4 font-extrabold text-green-500'>About Me</p>
                     <p className='text-slate-300 mb-3'>

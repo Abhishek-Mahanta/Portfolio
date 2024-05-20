@@ -3,6 +3,7 @@ import Project1 from '../assets/project1.jpg'
 import Project2 from '../assets/project2.jpg'
 import Project3 from '../assets/project3.jpg'
 import Project4 from '../assets/project4.jpg'
+import Itodo from '../assets/itodo.jpg'
 
 const photos = () => {
     return (
@@ -28,6 +29,11 @@ const photos = () => {
                 </div>
                 <div className='p-1 items-center rounded-2xl mt-8 mb-8' style={{ padding: '0 20px' }}>
                     <img src={Project4} alt="project4" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+                </div>
+                <hr/>
+                <h1 className='text-4xl text-white mt-8 p-2 font-mono'>Project 4 : </h1>
+                <div className='p-1 items-center rounded-2xl mt-4 mb-8' style={{ padding: '0 20px' }}>
+                    <img src={Itodo} alt="itodo" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
                 </div>
             </div>
         </>

@@ -2,6 +2,7 @@ import LoginImg from '../assets/login.jpg'
 import DevImg from '../assets/dev.jpg'
 import Pagination from '../assets/pagination.png'
 import Bprofile from '../assets/bprofile.png'
+import Todo from '../assets/todo.png'
 
 export const Project = () => {
     return (
@@ -39,7 +40,7 @@ export const Project = () => {
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
                                         Login Functionality with OTP
                                     </div>
-                                    <a href='https://github.com/Abhishek-Mahanta/l_otp.git'>Subheading : click here for source code</a>
+                                    <a href='https://github.com/Abhishek-Mahanta/l_otp.git'>Subheading : Click here for source code</a>
                                     <p className="mt-2 text-slate-500">
                                         Login functionality with otp verification.Where users, doctors and admins can login by providing the OTP.
                                     </p>
@@ -56,7 +57,7 @@ export const Project = () => {
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
                                         Forms Pagination
                                     </div>
-                                    <a href='https://github.com/Abhishek-Mahanta/Formspagination.git'>Subheading : click here for source code</a>
+                                    <a href='https://github.com/Abhishek-Mahanta/Formspagination.git'>Subheading : Click here for source code</a>
 
                                     <p className="mt-2 text-slate-500">
                                         Made this project,worked on forms pagination also used toast,storing data in localstorage. In this project users can
@@ -79,7 +80,7 @@ export const Project = () => {
                                     <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
                                         Business Profile Page
                                     </div>
-                                    <a href='https://github.com/Abhishek-Mahanta/BusinessProfilePage.git'>Subheading : click here</a>
+                                    <a href='https://github.com/Abhishek-Mahanta/BusinessProfilePage.git'>Subheading : Click here for source code</a>
                                     <p className="mt-2 text-slate-500">
                                     Made this project,used toast,storing data in localstorage. In this project users can
                                         create their own business profile.
@@ -89,8 +90,28 @@ export const Project = () => {
                                 </div>
 
                             </div>
-                        </div>
+                        </div> 
                     </div>
+                    <hr/> 
+                    <div className='grid grid-cols-1 gap-4 p-5'>
+                        <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
+                            <div className='md:flex'>
+                                <div className='p-8'>
+                                    <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
+                                        To-Do-List
+                                    </div>
+                                    <a href='https://github.com/Abhishek-Mahanta/To-Do-List'>Subheading : Click here for source code</a>
+                                    <p className="mt-2 text-slate-500">
+                                        Developed a todo list web page where users can add their daily todos,cut their todos(which will make the difference between 
+                                        marked and unmarked todos),and users can also edit and delete their todos.
+                                    </p>
+                                </div>
+                                <div className='md:shrink-0 p-5'>
+                                    <img src={Todo} alt="todo" width={150} height={150} />
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     <div className='grid grid-cols-2 gap-4 p-5'>
                     </div>
                 </div>

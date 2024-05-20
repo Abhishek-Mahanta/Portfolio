@@ -1,13 +1,13 @@
-import Nav from './nav'
-import Hero from './hero'
-import { Project } from './project'
-import { Skills } from './skills'
+import Nav from './Nav'
+import Hero from './Hero'
+import { Project } from './Project'
+import { Skills } from './Skills'
 import  Footer  from './footer'
-import  Contactus  from './contactus'
-import  Education  from './education'
-import  Experience  from './experience'
-import  About  from './about'
-import  Photos  from './photos'
+import  Contactus  from './Contactus'
+import  Education  from './Education'
+import  Experience  from './Experience'
+import  About  from './About'
+import  Photos  from './Photos'
 
 
 const main = () => {

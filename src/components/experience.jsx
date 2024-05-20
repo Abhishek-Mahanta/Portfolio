@@ -85,7 +85,7 @@ const experience = () => {
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
                 <div className='grid grid-cols-1 gap-4 p-5 '>
                     <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
@@ -112,13 +112,12 @@ const experience = () => {
                                     - Worked on both client and server side.<br/>
                                     - Worked on User Interface(UI)<br/>
                                     - Built login functionality for users, doctors, admins.<br/>
-                                    - Worked on otp;users, doctors will get their otp and using that otp they can login.
+                                    - Worked on otp ; users, doctors will get their otp and using that otp they can login to the system.
                                 </p>
                             </div>
-
-                        </div>
+                        </div>                        
                     </div>
-                </div>
+                </div>                
                 <div className='grid grid-cols-2 gap-4 p-5'>
                 </div>
             </div>

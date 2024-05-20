@@ -20,25 +20,25 @@ const hero = () => {
 
                 <div className='md:shrink-0 flex mt-5 space-x-4 cursor-pointer'>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Html} alt="html" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Html} alt="html" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Css} alt="css" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Css} alt="css" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Javascript} alt="javascript" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Javascript} alt="javascript" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Reactjs} alt="reactjs" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Reactjs} alt="reactjs" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Vite} alt="vite" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Vite} alt="vite" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Tailwindcss} alt="tailwindcss" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Tailwindcss} alt="tailwindcss" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                     <a style={{ width: '50px', height: '50px', borderRadius: '8px', overflow: 'hidden' }}>
-                        <img src={Bootstrap} alt="boopstrap" style={{ width: '100%', height: '90%', borderRadius: 'inherit' }} />
+                        <img src={Bootstrap} alt="boopstrap" style={{ width: '100%', height: '100%', borderRadius: 'inherit' }} />
                     </a>
                 </div>
                 <p className='mt-10 text-slate-300 font-sans'>

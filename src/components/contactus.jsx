@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 const contactus = () => {
   const [formData, setFormData] = useState({
@@ -95,11 +94,9 @@ const contactus = () => {
             </div>
             <div className="flex justify-center">
               <button type="submit" className="bg-green-600 text-white font-bold py-3 px-16 rounded-lg hover:bg-green-700 focus:outline-none focus:bg-green-600">Send Message</button>
-            </div>
-            
+            </div>            
           </form>
         </div>
-        <ToastContainer />
       </div>
     </>
   );
