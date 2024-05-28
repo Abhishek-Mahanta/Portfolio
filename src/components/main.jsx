@@ -10,7 +10,7 @@ import  About  from './About'
 import  Photos  from './Photos'
 
 
-const main = () => {
+const Main = () => {
   return (
     <div style={{backgroundColor: "#2F3C7E"}}>
         <Nav />
@@ -27,4 +27,4 @@ const main = () => {
   )
 }
 
-export default main
+export default Main

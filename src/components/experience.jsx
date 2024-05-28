@@ -3,7 +3,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 import Zephyr from '../assets/zephyr.png'
 import Petwale1 from '../assets/petwale1.png'
 
-const experience = () => {
+const Experience = () => {
     return (
         <>
             <div className="bg-indigo-800 m-20 max-w-full rounded-3xl border-2 border-white">
@@ -84,39 +84,7 @@ const experience = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                </div>
-                <div className='grid grid-cols-1 gap-4 p-5 '>
-                    <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse'>
-                        <div className='md:flex'>
-                            <div className='p-8'>
-                                <div class="flex items-center">
-                                    <div class='md:shrink-0 p-1'>
-                                        <img src={Petwale1} alt="petwale1" width={50} height={50} />
-                                    </div>
-                                    <div class="uppercase tracking-wide text-xl to-indigo-500 font-semibold">
-                                        Petwale365
-                                    </div>
-                                </div>
-                                <hr />
-
-                                <div class="flex items-center justify-between">
-                                    <p class="mt-2 text-slate-500 font-normal">JUNIOR WEB DEVELOPER</p>
-                                    <div class="flex items-center mt-2">
-                                        <MdOutlineDateRange />
-                                        <p class="text-slate-500 font-normal ml-2">Aug 2023 - April 2024</p>
-                                    </div>
-                                </div>
-                                <p className="mt-4 text-black font-normal">
-                                    - Worked on both client and server side.<br/>
-                                    - Worked on User Interface(UI)<br/>
-                                    - Built login functionality for users, doctors, admins.<br/>
-                                    - Worked on otp ; users, doctors will get their otp and using that otp they can login to the system.
-                                </p>
-                            </div>
-                        </div>                        
-                    </div>
+                    </div>                    
                 </div>                
                 <div className='grid grid-cols-2 gap-4 p-5'>
                 </div>
@@ -125,4 +93,4 @@ const experience = () => {
     )
 }
 
-export default experience
+export default Experience

@@ -27,8 +27,8 @@ function closeMenu() {
                 <div className="ssm:hidden lg:block space-x-2">
                 <Link to="about" smooth={true} offset={550} duration={500} id='about' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">About</Link>
                 <Link to="project" smooth={true} offset={1200} duration={500} id='project' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">Projects</Link>
-                <Link to="skills" smooth={true} offset={2050} duration={500} id='skills' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">Skills</Link>
-                <Link to="contact" smooth={true} offset={7000} duration={1500} id='contact' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">Contact</Link>
+                <Link to="skills" smooth={true} offset={2300} duration={500} id='skills' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">Skills</Link>
+                <Link to="contact" smooth={true} offset={8120} duration={1500} id='contact' className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl cursor-pointer">Contact</Link>
                 </div>
                 
                 <div className='ssm:block lg:hidden'>
@@ -43,10 +43,10 @@ function closeMenu() {
             {toggle1 ? (
                 <div className='flex justify-between ml-10'>
                 <ul className="space-y-4">
-                    <li><Link to="about" smooth={true} offset={1300} duration={500}  id='about' className="text-white text-xl  hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer">About</Link></li>
-                    <li><Link to="project" smooth={true} offset={2300} duration={500} id='project' className="text-white text-xl  hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer">Projects</Link></li>
-                    <li><Link to="skills" smooth={true} offset={3600} duration={500} id='skills' className='text-white text-xl mb-2 hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer'>Skills</Link></li>
-                    <li><Link to="contact" smooth={true} offset={7950} duration={1500} id='contact' className='text-white text-xl mb-2 hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer'>Contact</Link></li>
+                    <li><Link to="about" smooth={true} offset={1200} duration={500}  id='about' className="text-white text-xl  hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer">About</Link></li>
+                    <li><Link to="project" smooth={true} offset={2200} duration={500} id='project' className="text-white text-xl  hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer">Projects</Link></li>
+                    <li><Link to="skills" smooth={true} offset={3950} duration={500} id='skills' className='text-white text-xl mb-2 hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer'>Skills</Link></li>
+                    <li><Link to="contact" smooth={true} offset={8650} duration={1500} id='contact' className='text-white text-xl mb-2 hover:bg-indigo-800 px-3 py-2 rounded-full cursor-pointer'>Contact</Link></li>
                 </ul>
             </div>
             ):(
